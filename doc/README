@@ -7,18 +7,12 @@ Heidelberg, Germany, August 1999, pp. 234-241.
 ===============================================================================
 
 
-The programs in this directory may be compiled and run.  The source codes and
+The programs in ../share may be compiled and run.  The source codes and
 general comments in the source files are to help document how the AlgMSS()
 function may be used.  The examples are simple, but useful.  Some of the files,
 particularly those that use the STL, contain additional sections that explain
 the Helper class that is also defined within MSS.hpp, and AlgMSS()'s template
 parameters requirements.
-
-The sources here are 100% ansi/iso-compliant C++.  All you need is a modern
-compiler of your choosing.  An example might be g++ 4.x.  I might use something
-similar to the following with that particular compiler:
-g++ -ansi -pedantic -Wall -O3 builtin.mss.example1.cpp
-
 
 --------------------
 AlgMSS() Signature:
