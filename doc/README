@@ -1,0 +1,68 @@
+===============================================================================
+AlgMSS() is a linear time program for finding all maximal scoring subsequences.
+It is an implementation of the design shown in "A Linear Time Algorithm for
+Finding All Maximal Scoring Subsequences" by Walter L. Ruzzo and Martin Tompa,
+Seventh International Conference on Intelligent Systems for Molecular Biology,
+Heidelberg, Germany, August 1999, pp. 234-241.
+===============================================================================
+
+
+The programs in this directory may be compiled and run.  The source codes and
+general comments in the source files are to help document how the AlgMSS()
+function may be used.  The examples are simple, but useful.  Some of the files,
+particularly those that use the STL, contain additional sections that explain
+the Helper class that is also defined within MSS.hpp, and AlgMSS()'s template
+parameters requirements.
+
+The sources here are 100% ansi/iso-compliant C++.  All you need is a modern
+compiler of your choosing.  An example might be g++ 4.x.  I might use something
+similar to the following with that particular compiler:
+g++ -ansi -pedantic -Wall -O3 builtin.mss.example1.cpp
+
+
+--------------------
+AlgMSS() Signature:
+--------------------
+template <class ForwardIterator, class OutputIterator, class ArithmeticType>
+void AlgMSS(ForwardIterator beg, ForwardIterator end,
+            OutputIterator out, ArithmeticType threshold);
+
+
+----------------------------------
+Overview of examples in ../share/
+----------------------------------
+
+o builtin.mss.example1.cpp shows:
+   - how to use AlgMSS() with a built-in array of int's.
+   - how to use an ostream_iterator<> as AlgMSS()'s OutputIterator type.
+   - how to provide an overloaded extraction operator (operator <<) in the std
+      namespace to work with an ostream_iterator<> that is compatible with
+      AlgMSS()'s templated OutputIterator type.
+
+o builtin.mss.example2.cpp shows:
+   - how to use AlgMSS() with a built-in array of double's.
+   - how to use AlgMSS() using *const* data types.
+   - how to use a built-in array with AlgMSS()'s templated OutputIterator type.
+
+o stl.mss.example1.cpp shows:
+   - how to use the Help<> templated class to simplify STL usage with AlgMSS().
+   - many possible combinations of container types at your disposal.
+   - how to use a *const* STL container for your input container.
+
+   This source file contains a detailed section of information on how to use
+    the STL, with the help of the Help<> templated class, with AlgMSS().
+
+o stl.mss.example2.cpp shows:
+   - how a user-defined type may be used with AlgMSS() rather than built-ins
+      (like double's, int's, etc.)
+   
+   This source file contains a section of information on AlgMSS()'s
+    ForwardIterator template type.  Specifically, why an InputIterator concept
+    may not be used.  AlgMSS()'s OutputIterator type is also discussed.
+
+o stl.mss.example3.cpp shows:
+   - how to use the STL with AlgMSS() without the help of the Help<> class.
+   - usage of a non-zero threshold value.
+   
+   This source file contains a brief section of information on very out-of-date
+    compilers that fail to compile with the templated Help<> class definition.
