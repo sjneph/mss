@@ -14,9 +14,13 @@ Given a sequence of numbers (scores) and a threshold, this algorithm finds every
 
 The implementation is available in one header: include/MSS.hpp  
 
-template <class ForwardIterator, class OutputIterator, class ArithmeticType>  
+```
+template <class ForwardIterator,
+          class OutputIterator,
+          class ArithmeticType>  
 void AlgMSS(ForwardIterator beg, ForwardIterator end,  
             OutputIterator out, ArithmeticType threshold);  
+```
 
 Example applications of how the algorithm may be used with built-in arrays and STL containers are available in
 in share/
