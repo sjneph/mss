@@ -22,7 +22,7 @@ void AlgMSS(ForwardIterator beg, ForwardIterator end,
             OutputIterator out, ArithmeticType threshold);  
 ```
 
-Example applications of how the algorithm may be used with built-in arrays and STL containers are available in
-in share/
+Example applications of how the algorithm may be used with built-in arrays and STL containers are available in  
+share/  
 
 Some words about using it with STL containers are available at the end of each STL example file.
