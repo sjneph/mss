@@ -1,11 +1,8 @@
-//=========
-// Author:  Shane Neph
-// Date:    2006
-// Project: all maximal scoring subsequences
-//=========
-
 /*
-MSS
+
+FILE: builtin.mss.example1.cpp
+AUTHOR: Shane Neph
+CREATE DATE: 2006
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

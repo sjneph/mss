@@ -1,20 +1,23 @@
 /*
 
-Program: MSS
-Version: 1.0
+FILE: MSS.hpp
+AUTHOR: Shane Neph
+CREATE DATE: 2006
 
-Copyright (C) 2006-2013 by Shane Neph and John Stamatoyannopoulos, Department of
-Genome Sciences, University of Washington.
-Contact: sjn@u.washington.edu. All rights reserved
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
 
-MSS software is provided to you at no cost to you. You have the right to
-perform, copy, modify, display and distribute this software. If you distribute
-MSS software or modifications thereof, you agree to grant users the same rights
-as are granted to you under this license.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-You retain in MSS software and any modifications to MSS software, the
-copyright, trademark, or other notices pertaining to MSS as provided by the
-author and University of Washington.
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
 
 If the use of the MSS software results in outcomes which will be published,
 please specify the version of MSS software you used and cite the following
@@ -23,31 +26,6 @@ reference:
 Ruzzo, W. L., and Tompa, M. 1999. A Linear Time Algorithm for Finding All
 Maximal Scoring Subsequences. Seventh International Conference on Intelligent
 Systems for Molecular Biology. 234-241.
-
-You acknowledge that Shane Neph, John Stamatoyannopoulos and University of
-Washington may develop modifications to MSS software that may be
-substantially similar to your modifications of MSS software, and that Shane
-Neph, John Stamatoyannopoulos and the University of Washington shall not be
-constrained in any way by you in the use or management of such modifications.
-You acknowledge the right of Shane Neph, John Stamatoyannopoulos and University
-of Washington to prepare and publish modifications to MSS software that may be
-substantially similar or functionally equivalent to your modifications and
-improvements, and if you obtain patent protection for any modification or
-improvement to MSS software, you agree not to allege or enjoin infringement of
-your patent by Shane Neph, John Stamatoyannopoulos or the University of
-Washington.
-
-Any risk associated with using the MSS software is with you and your
-Institution. This software is provided ``AS IS'' and any express or implied
-warranties, including, but not limited to, the implied warranties of
-merchantability and fitness for a particular purpose, are disclaimed. In no
-event shall Shane Neph, John Stamatoyannopoulos or the University of Washington
-be liable for any direct, indirect, incidental, special, exemplary, or
-consequential damages (including, but not limited to, procurement of substitute
-goods or services; loss of use, data, or profits; or business interruption)
-however caused and on any theory of liability, whether in contract, strict
-liability, or tort (including negligence or otherwise) arising in any way out
-of the use of this software, even if advised of the possibility of such damage.
 
 */
 
