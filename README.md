@@ -24,5 +24,7 @@ void AlgMSS(ForwardIterator beg, ForwardIterator end,
 
 Example applications of how the algorithm may be used with built-in arrays and STL containers are available in  
 share/  
+Briefly, beg and end mark the endpoints of your sequence of numbers, results are written to out, and threshold divides the numbers into positive and negative.  
+A threshold of zero often makes sense for sequences of positive and negative values.  The median value might make sense when measurements are all positive.  
 
 Some words about using it with STL containers are available at the end of each STL example file.
