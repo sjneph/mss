@@ -1,4 +1,4 @@
-## Maximal Scoring Subsequences (MSS) ##
+## ALL Maximal Scoring Subsequences ##
 > Shane Neph
 
 
